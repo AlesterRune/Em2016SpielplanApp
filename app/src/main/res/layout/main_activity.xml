@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ch.todesstern.emspielplanapp.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:focusable="false">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gruppe A"
+            android:id="@+id/btnGrpA"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grpa3"
+            android:onClick="onClickGruppe"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gruppe B"
+            android:id="@+id/btnGrpB"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grpb3"
+            android:onClick="onClickGruppe"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gruppe C"
+            android:id="@+id/btnGrpC"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grpc3"
+            android:onClick="onClickGruppe"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gruppe D"
+            android:id="@+id/btnGrpD"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grpd3"
+            android:onClick="onClickGruppe"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gruppe E"
+            android:id="@+id/btnGrpE"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grpe3"
+            android:onClick="onClickGruppe"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gruppe F"
+            android:id="@+id/btnGrpF"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grpf3"
+            android:onClick="onClickGruppe"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Achtel\nFinale"
+            android:id="@+id/btnAchtel"
+            android:layout_weight="1"
+            android:onClick="onClickGruppe"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Viertel\nFinale"
+            android:id="@+id/btnViertel"
+            android:layout_weight="1"
+            android:onClick="onClickGruppe"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Halb\nFinale"
+            android:id="@+id/btnHalb"
+            android:layout_weight="1"
+            android:onClick="onClickGruppe"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Finale"
+            android:id="@+id/btnFinale"
+            android:layout_weight="1"
+            android:onClick="onClickFinale"/>
+    </LinearLayout>
+</LinearLayout>
