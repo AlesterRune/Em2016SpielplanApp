@@ -6,6 +6,8 @@ import ch.todesstern.emspielplanapp.R;
 
 /**
  * Created by kutt on 27.06.2016.
+ * Utility Klasse
+ * Gibt Flaggen ID (Ressource) anhand eines Nationsnamens zurück.
  */
 public class Flaggen
 {
